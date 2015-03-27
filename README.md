@@ -17,7 +17,7 @@ cssPrefix = require('gulp-css-prefix');
 gulp.task('build-css', function() {
   return gulp.src('./static/css/*.css')
     .pipe(cssPrefix('RAWR-'))
-    .pipe(gulp.dest('./dist/'))
+    .pipe(gulp.dest('./dist/'));
 });
 ```
 ### Options
